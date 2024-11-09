@@ -1,0 +1,71 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 112 144)
+	(text "lab30321SDFF" (rect 5 0 97 19)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 107 24 124)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "SI" (rect 0 0 11 19)(font "Intel Clear" (font_size 8)))
+		(text "SI" (rect 21 27 32 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "D" (rect 0 0 9 19)(font "Intel Clear" (font_size 8)))
+		(text "D" (rect 21 43 30 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "LOAD" (rect 0 0 34 19)(font "Intel Clear" (font_size 8)))
+		(text "LOAD" (rect 21 59 55 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "CLK" (rect 0 0 23 19)(font "Intel Clear" (font_size 8)))
+		(text "CLK" (rect 21 75 44 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "ENA" (rect 0 0 24 19)(font "Intel Clear" (font_size 8)))
+		(text "ENA" (rect 21 91 45 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 96 32)
+		(output)
+		(text "Q" (rect 0 0 9 19)(font "Intel Clear" (font_size 8)))
+		(text "Q" (rect 66 27 75 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 96 32)(pt 80 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 80 112))
+	)
+)
