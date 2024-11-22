@@ -1,0 +1,28 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate "D:\Game\Computer Science\FPGA Doc\DigitalExperiments\lab5\lab504LPMPRR\fdiv_s_p.qsys" --block-symbol-file --output-directory="D:\Game\Computer Science\FPGA Doc\DigitalExperiments\lab5\lab504LPMPRR\fdiv_s_p" --family="Cyclone 10 LP" --part=10CL006YU256C8G
+Progress: Loading lab504LPMPRR/fdiv_s_p.qsys
+Progress: Reading input file
+Progress: Adding in_system_sources_probes_0 [altera_in_system_sources_probes 18.1]
+Progress: Parameterizing module in_system_sources_probes_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate "D:\Game\Computer Science\FPGA Doc\DigitalExperiments\lab5\lab504LPMPRR\fdiv_s_p.qsys" --synthesis=VERILOG --output-directory="D:\Game\Computer Science\FPGA Doc\DigitalExperiments\lab5\lab504LPMPRR\fdiv_s_p\synthesis" --family="Cyclone 10 LP" --part=10CL006YU256C8G
+Progress: Loading lab504LPMPRR/fdiv_s_p.qsys
+Progress: Reading input file
+Progress: Adding in_system_sources_probes_0 [altera_in_system_sources_probes 18.1]
+Progress: Parameterizing module in_system_sources_probes_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: fdiv_s_p: Generating fdiv_s_p "fdiv_s_p" for QUARTUS_SYNTH
+Info: in_system_sources_probes_0: "fdiv_s_p" instantiated altera_in_system_sources_probes "in_system_sources_probes_0"
+Info: fdiv_s_p: Done "fdiv_s_p" with 2 modules, 2 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
