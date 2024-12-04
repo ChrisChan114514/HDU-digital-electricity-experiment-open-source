@@ -1,0 +1,189 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Q[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "PC_OFFSET[7]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_BASE[15]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_BASE[14]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_BASE[13]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_BASE[12]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_BASE[11]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_BASE[10]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_BASE[9]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_BASE[8]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_BASE[7]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_OFFSET[6]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_BASE[6]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_OFFSET[5]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_BASE[5]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_OFFSET[4]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_BASE[4]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_OFFSET[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_BASE[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_OFFSET[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_BASE[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_OFFSET[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_BASE[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_OFFSET[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_BASE[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_SEL",
+					"strict" : false
+				},
+				{
+					"name" : "RST",
+					"strict" : false
+				},
+				{
+					"name" : "PC_LOAD",
+					"strict" : false
+				},
+				{
+					"name" : "PC_EN",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

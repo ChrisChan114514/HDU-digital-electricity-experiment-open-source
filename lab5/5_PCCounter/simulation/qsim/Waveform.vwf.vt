@@ -1,0 +1,215 @@
+// Copyright (C) 2018  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "12/03/2024 14:18:10"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          lab505PCcnt
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module lab505PCcnt_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg CLK;
+reg [15:0] PC_BASE;
+reg PC_EN;
+reg PC_LOAD;
+reg [7:0] PC_OFFSET;
+reg PC_SEL;
+reg RST;
+// wires                                               
+wire [15:0] Q;
+
+// assign statements (if any)                          
+lab505PCcnt i1 (
+// port map - connection between master ports and signals/registers   
+	.CLK(CLK),
+	.PC_BASE(PC_BASE),
+	.PC_EN(PC_EN),
+	.PC_LOAD(PC_LOAD),
+	.PC_OFFSET(PC_OFFSET),
+	.PC_SEL(PC_SEL),
+	.Q(Q),
+	.RST(RST)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// CLK
+always
+begin
+	CLK = 1'b0;
+	CLK = #5000 1'b1;
+	#5000;
+end 
+
+// RST
+initial
+begin
+	RST = 1'b1;
+	RST = #20000 1'b0;
+end 
+// PC_BASE[ 15 ]
+initial
+begin
+	PC_BASE[15] = 1'b0;
+end 
+// PC_BASE[ 14 ]
+initial
+begin
+	PC_BASE[14] = 1'b0;
+end 
+// PC_BASE[ 13 ]
+initial
+begin
+	PC_BASE[13] = 1'b0;
+end 
+// PC_BASE[ 12 ]
+initial
+begin
+	PC_BASE[12] = 1'b0;
+end 
+// PC_BASE[ 11 ]
+initial
+begin
+	PC_BASE[11] = 1'b0;
+end 
+// PC_BASE[ 10 ]
+initial
+begin
+	PC_BASE[10] = 1'b0;
+end 
+// PC_BASE[ 9 ]
+initial
+begin
+	PC_BASE[9] = 1'b0;
+end 
+// PC_BASE[ 8 ]
+initial
+begin
+	PC_BASE[8] = 1'b0;
+end 
+// PC_BASE[ 7 ]
+initial
+begin
+	PC_BASE[7] = 1'b0;
+end 
+// PC_BASE[ 6 ]
+initial
+begin
+	PC_BASE[6] = 1'b0;
+end 
+// PC_BASE[ 5 ]
+initial
+begin
+	PC_BASE[5] = 1'b0;
+end 
+// PC_BASE[ 4 ]
+initial
+begin
+	PC_BASE[4] = 1'b1;
+end 
+// PC_BASE[ 3 ]
+initial
+begin
+	PC_BASE[3] = 1'b0;
+end 
+// PC_BASE[ 2 ]
+initial
+begin
+	PC_BASE[2] = 1'b0;
+end 
+// PC_BASE[ 1 ]
+initial
+begin
+	PC_BASE[1] = 1'b1;
+end 
+// PC_BASE[ 0 ]
+initial
+begin
+	PC_BASE[0] = 1'b0;
+end 
+
+// PC_EN
+initial
+begin
+	PC_EN = 1'b0;
+	PC_EN = #40000 1'b1;
+end 
+
+// PC_LOAD
+initial
+begin
+	PC_LOAD = 1'b0;
+	PC_LOAD = #100000 1'b1;
+end 
+// PC_OFFSET[ 7 ]
+initial
+begin
+	PC_OFFSET[7] = 1'b0;
+end 
+// PC_OFFSET[ 6 ]
+initial
+begin
+	PC_OFFSET[6] = 1'b0;
+end 
+// PC_OFFSET[ 5 ]
+initial
+begin
+	PC_OFFSET[5] = 1'b0;
+end 
+// PC_OFFSET[ 4 ]
+initial
+begin
+	PC_OFFSET[4] = 1'b0;
+end 
+// PC_OFFSET[ 3 ]
+initial
+begin
+	PC_OFFSET[3] = 1'b0;
+end 
+// PC_OFFSET[ 2 ]
+initial
+begin
+	PC_OFFSET[2] = 1'b1;
+end 
+// PC_OFFSET[ 1 ]
+initial
+begin
+	PC_OFFSET[1] = 1'b0;
+end 
+// PC_OFFSET[ 0 ]
+initial
+begin
+	PC_OFFSET[0] = 1'b1;
+end 
+
+// PC_SEL
+initial
+begin
+	PC_SEL = 1'b0;
+	PC_SEL = #300000 1'b1;
+end 
+endmodule
+

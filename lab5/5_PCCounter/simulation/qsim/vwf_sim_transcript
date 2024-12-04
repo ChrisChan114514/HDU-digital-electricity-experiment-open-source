@@ -1,0 +1,141 @@
+Determining the location of the ModelSim executable...
+
+Using: D:\Quartus\modelsim_ase\win32aloem
+
+To specify a ModelSim executable directory, select: Tools -> Options -> EDA Tool Options
+Note: if both ModelSim-Altera and ModelSim executables are available, ModelSim-Altera will be used.
+
+**** Generating the ModelSim Testbench ****
+
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab505PCcnt -c lab505PCcnt --vector_source="D:/Game/Computer Science/FPGA Doc/DigitalExperiments/Open_Source/lab5/5_PCCounter/Waveform.vwf" --testbench_file="D:/Game/Computer Science/FPGA Doc/DigitalExperiments/Open_Source/lab5/5_PCCounter/simulation/qsim/Waveform.vwf.vt"
+
+Info: *******************************************************************
+Info: Running Quartus Prime EDA Netlist Writer
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+    Info: Copyright (C) 2018  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details.
+    Info: Processing started: Tue Dec 03 14:18:09 2024
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab505PCcnt -c lab505PCcnt --vector_source="D:/Game/Computer Science/FPGA Doc/DigitalExperiments/Open_Source/lab5/5_PCCounter/Waveform.vwf" --testbench_file="D:/Game/Computer Science/FPGA Doc/DigitalExperiments/Open_Source/lab5/5_PCCounter/simulation/qsim/Waveform.vwf.vt"
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+
+Completed successfully. 
+
+Completed successfully. 
+
+**** Generating the functional simulation netlist ****
+
+quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="D:/Game/Computer Science/FPGA Doc/DigitalExperiments/Open_Source/lab5/5_PCCounter/simulation/qsim/" lab505PCcnt -c lab505PCcnt
+
+Info: *******************************************************************
+Info: Running Quartus Prime EDA Netlist Writer
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+    Info: Copyright (C) 2018  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details.
+    Info: Processing started: Tue Dec 03 14:18:10 2024
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="D:/Game/Computer Science/FPGA Doc/DigitalExperiments/Open_Source/lab5/5_PCCounter/simulation/qsim/" lab505PCcnt -c lab505PCcnt
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (204019): Generated file lab505PCcnt.vo in folder "D:/Game/Computer Science/FPGA Doc/DigitalExperiments/Open_Source/lab5/5_PCCounter/simulation/qsim//" for EDA simulation tool
+Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4633 megabytes
+    Info: Processing ended: Tue Dec 03 14:18:11 2024
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
+
+Completed successfully. 
+
+**** Generating the ModelSim .do script ****
+
+D:/Game/Computer Science/FPGA Doc/DigitalExperiments/Open_Source/lab5/5_PCCounter/simulation/qsim/lab505PCcnt.do generated.
+
+Completed successfully. 
+
+**** Running the ModelSim simulation ****
+
+D:/Quartus/modelsim_ase/win32aloem/vsim -c -do lab505PCcnt.do
+
+Reading D:/Quartus/modelsim_ase/tcl/vsim/pref.tcl
+
+# 10.5b
+
+# do lab505PCcnt.do
+
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:18:12 on Dec 03,2024
+# vlog -work work lab505PCcnt.vo 
+# -- Compiling module lab505PCcnt
+
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	lab505PCcnt
+# End time: 14:18:12 on Dec 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:18:13 on Dec 03,2024
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module lab505PCcnt_vlg_vec_tst
+# 
+# Top level modules:
+# 	lab505PCcnt_vlg_vec_tst
+# End time: 14:18:13 on Dec 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+# vsim -novopt -c -t 1ps -L cyclone10lp_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.lab505PCcnt_vlg_vec_tst 
+# Start time: 14:18:13 on Dec 03,2024
+# Loading work.lab505PCcnt_vlg_vec_tst
+# Loading work.lab505PCcnt
+# Loading work.hard_block
+# Loading cyclone10lp_ver.cyclone10lp_io_obuf
+# Loading cyclone10lp_ver.cyclone10lp_io_ibuf
+# Loading cyclone10lp_ver.cyclone10lp_clkctrl
+# Loading cyclone10lp_ver.cyclone10lp_mux41
+# Loading cyclone10lp_ver.cyclone10lp_ena_reg
+# Loading cyclone10lp_ver.cyclone10lp_lcell_comb
+# Loading altera_ver.dffeas
+# Loading altera_ver.PRIM_GDFF_LOW
+# after#24
+# ** Note: $finish    : Waveform.vwf.vt(56)
+#    Time: 1 us  Iteration: 0  Instance: /lab505PCcnt_vlg_vec_tst
+# End time: 14:18:14 on Dec 03,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+
+Completed successfully. 
+
+**** Converting ModelSim VCD to vector waveform ****
+
+Reading D:/Game/Computer Science/FPGA Doc/DigitalExperiments/Open_Source/lab5/5_PCCounter/Waveform.vwf...
+
+Reading D:/Game/Computer Science/FPGA Doc/DigitalExperiments/Open_Source/lab5/5_PCCounter/simulation/qsim/lab505PCcnt.msim.vcd...
+
+Processing channel transitions... 
+
+Writing the resulting VWF to D:/Game/Computer Science/FPGA Doc/DigitalExperiments/Open_Source/lab5/5_PCCounter/simulation/qsim/lab505PCcnt_20241203141814.sim.vwf
+
+Finished VCD to VWF conversion.
+
+Completed successfully. 
+
+All completed.

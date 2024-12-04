@@ -1,0 +1,38 @@
+# do lab505PCcnt.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:18:12 on Dec 03,2024
+# vlog -work work lab505PCcnt.vo 
+# -- Compiling module lab505PCcnt
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	lab505PCcnt
+# End time: 14:18:12 on Dec 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:18:13 on Dec 03,2024
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module lab505PCcnt_vlg_vec_tst
+# 
+# Top level modules:
+# 	lab505PCcnt_vlg_vec_tst
+# End time: 14:18:13 on Dec 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cyclone10lp_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.lab505PCcnt_vlg_vec_tst 
+# Start time: 14:18:13 on Dec 03,2024
+# Loading work.lab505PCcnt_vlg_vec_tst
+# Loading work.lab505PCcnt
+# Loading work.hard_block
+# Loading cyclone10lp_ver.cyclone10lp_io_obuf
+# Loading cyclone10lp_ver.cyclone10lp_io_ibuf
+# Loading cyclone10lp_ver.cyclone10lp_clkctrl
+# Loading cyclone10lp_ver.cyclone10lp_mux41
+# Loading cyclone10lp_ver.cyclone10lp_ena_reg
+# Loading cyclone10lp_ver.cyclone10lp_lcell_comb
+# Loading altera_ver.dffeas
+# Loading altera_ver.PRIM_GDFF_LOW
+# after#24
+# ** Note: $finish    : Waveform.vwf.vt(56)
+#    Time: 1 us  Iteration: 0  Instance: /lab505PCcnt_vlg_vec_tst
+# End time: 14:18:14 on Dec 03,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

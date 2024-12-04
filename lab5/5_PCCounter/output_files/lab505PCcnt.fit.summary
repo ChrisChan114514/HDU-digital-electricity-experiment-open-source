@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Dec 03 14:17:06 2024
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : lab505PCcnt
+Top-level Entity Name : lab505PCcnt
+Family : Cyclone 10 LP
+Device : 10CL006YU256C8G
+Timing Models : Final
+Total logic elements : 65 / 6,272 ( 1 % )
+    Total combinational functions : 65 / 6,272 ( 1 % )
+    Dedicated logic registers : 16 / 6,272 ( < 1 % )
+Total registers : 16
+Total pins : 45 / 177 ( 25 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )
