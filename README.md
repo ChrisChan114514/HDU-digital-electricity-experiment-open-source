@@ -114,5 +114,5 @@ Verilog修改就是把前两个数码管给灭了，时钟六位码管足够了�
 
 然后verilog更改就改一个地方 **打开quartus,打开seg.v文件，找到第28行、30行，将这两行的SEL赋值改为SEL <= 8'b1111_1111;即可**
 
-记得HDRVSoC Tool烧录C文件时用这里的second3.c文件。
+** 记得HDRVSoC Tool烧录C文件时用这里的digitalclock.c文件。**
 
